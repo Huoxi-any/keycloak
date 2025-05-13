@@ -143,7 +143,7 @@
         <freemarker.version>2.3.31</freemarker.version>
         <javaparser.version>3.24.2</javaparser.version>
 
-        <jetty9.version>${jetty94.version}</jetty9.version>
+        <jetty9.version>9.4.57.v20241219</jetty9.version>
         <liquibase.version>4.8.0</liquibase.version>
         <osgi.version>4.2.0</osgi.version>
         <pax.web.version>7.1.0</pax.web.version>
@@ -198,7 +198,7 @@
         <surefire.memory.metaspace>96m</surefire.memory.metaspace>
         <surefire.memory.metaspace.max>512m</surefire.memory.metaspace.max>
         <surefire.memory.settings>-Xms${surefire.memory.Xms} -Xmx${surefire.memory.Xmx} -XX:MetaspaceSize=${surefire.memory.metaspace} -XX:MaxMetaspaceSize=${surefire.memory.metaspace.max}</surefire.memory.settings>
-        <surefire.system.args></surefire.system.args>
+        <surefire.system.args/>
 
         <!-- Tomcat versions -->
         <tomcat8.version>8.5.38</tomcat8.version>
@@ -266,7 +266,7 @@
         </developer>
     </developers>
 
-    <contributors></contributors>
+    <contributors/>
 
     <modules>
         <module>boms</module>
