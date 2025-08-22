@@ -35,7 +35,7 @@
             Do not change the properties bellow.
             Their names should match the name used by Quarkus BOM and the versions are automatically set when running the 'set-quarkus-version.sh' script.
         -->
-        <resteasy.version>4.7.7.Final</resteasy.version>
+        <resteasy.version>6.1.0.Final</resteasy.version>
         <jackson-bom.version>2.13.3</jackson-bom.version>
         <hibernate-orm.version>5.6.10.Final</hibernate-orm.version>
         <mysql-jdbc.version>8.0.30</mysql-jdbc.version>
